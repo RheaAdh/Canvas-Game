@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/mario.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mario</title>
+    <script async defer src="script.js"></script>
+  </head>
+
+  <body>
+    <canvas
+      height="400"
+      width="800"
+      id="gamebox"
+      style="
+        background: url('./images/background.png');
+        background-size: contain;
+      "
+    ></canvas>
+    <h3>Use the arrow keys⬅️➡️ to move Mario.</h3>
+    <h3>🕶️ Level:<span id="level"></span></h3>
+    <h3>🦀 Enemy Speed:<span id="enemyspeed"></span></h3>
+    <h3>⚡ Lives Left:<span id="lives"></span></h3>
+
+    <div class="signoff">Made with ❤️ by Rhea Adhikari</div>
+  </body>
+</html>
